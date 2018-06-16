@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Calender | New Space Technology</title> 
+		<meta name="description" content="Welcome to New Space Technology on this website you will find information about NASAs next missions, launches and landings.">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=2">
+		<meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+<!-- BODY-->
+
+	
+	<body onload="nasaCalendar()"> 
+	
+	
+<!-- HEADER -->
+	
+<header role="banner">	
+
+	
+<!-- NAV -->
+	
+<nav role="navigation">
+	<input type="checkbox" id="checkbox-demo">
+	<label for="checkbox-demo"><span class="toggle">☰</span>
+		<ul class="menu demo">
+			<a href="index.html" title="Back to home page">
+				<img src="http://enfjelldesign.com/projectexam/imgweb/nstlogo.png" alt="New Space Technology Logo" class="logo"></a>
+				<li class="hide"><a href="index.html" title="Home page">Home</a></li>
+				<li><a href="space.html" title="Space Technology">Space Technology</a></li>
+				<li><a href="calender.html" title="Calender" class="selected">Calendar</a></li>
+				<li><a href="contact.html" title="About us, Contact information">Contact us</a></li>
+		</ul>
+	</label>
+</nav>
+
+
+</header> <!-- HEADER ENDS -->
+	
+	
+<!-- SECTION FLEX-->
+	
+ 
+<section class="flex-container">
+	<article class="two">
+		<h2>NASA events and launches</h2>
+		<p>We are following on NASA's next event and launches!</p>
+		<p>On this page you will find the events for the current month and 2 months ahead.</p> 
+		<div id="calendar"></div>
+	</article>
+
+	<article>
+		<button class="buttonblack" onclick="plusDivs(-1)">&#10094; Previous Event </button>
+		<button class="buttonblack" onclick="plusDivs(+1)">Next Month's Event &#10095;</button>
+		
+		<div id="moreInfoContent1" class="nextEvent">
+			<h3>18 June 2018</h3>
+			<h4 class="h480">Sounding Rocket Takes a Second Look at the Sun</h4>
+			<p>As the principal investigator for the Extreme Ultraviolet Variability Experiment, or EVE, instrument aboard NASA’s Solar Dynamics Observatory, he’s all too familiar with the ways that exposure to the harsh space environment can lead to a spacecraft instrument’s degradation.</p>
+			<h3>21 June 2018</h3>
+			<h4 class="h480">Rocket Week Launching for Students and Educators at NASA Wallops</h4>
+			<p>University and community college students will get a boost in their studies and support in launching their careers during Rocket Week June 15-22, 2018, at NASA’s Wallops Flight Facility in Virginia.</p>
+		</div>	
+	
+		<div id="moreInfoContent2" style="display: none" class="nextEvent">
+			<h3>7 July 2018</h3>
+			<h4 class="h480">Mars Rover Oppotunity</h4>
+			<p>Spirit Launched: June 10, 2003</p> <p>Opportunity Launched: July 7, 2003</p> <p>Goal: To search for answers about the history of water on Mars.</p>
+			
+			<h3>14 July 2018</h3>
+			<h4 class="h480">NASA's Three-Billion-Mile Journey to Pluto Reaches Historic Encounter</h4>
+			<p>After a decade-long journey through our solar system, New Horizons made its closest approach to Pluto Tuesday, about 7,750 miles above the surface -- roughly the same distance from New York to Mumbai, India – making it the first-ever space mission to explore a world so far from Earth.</p>
+		</div>
+		
+		<div id="moreInfoContent3" style="display: none" class="nextEvent">
+			<h3>1 August 2018</h3>
+			<h4 class="h480">Boeing Orbital Flight test, uncrewed</h4>
+			<p>The next generation of American spacecraft and rockets that will launch astronauts to the International Space Station are nearing the final stages of development and evaluation. </p>
+			
+			<h3>4 August 2018</h3>
+			<h4 class="h480">Parker Solar Probe: Humanity’s First Visit to a Star</h4>
+			<p>NASA's historic Parker Solar Probe mission will revolutionize our understanding of the Sun, where changing conditions can propagate out into the solar system, affecting Earth and other worlds. Parker Solar Probe will travel through the Sun’s atmosphere, closer to the surface than any spacecraft before it, facing brutal heat and radiation conditions — and ultimately providing humanity with the closest-ever observations of a star.</p>
+		</div>		
+	</article>
+	
+
+</section>
+		
+		
+<div class="top"><a href="#top" title="Back to top" class="atop">Back To Top &#9650;</a></div>
+
+	
+	
+<!-- SECTION CONTACT + Social media -->
+
+<section class="sectioncontact">
+	<div>
+		<p class="small"><strong>Source</strong></p>
+		<p class="small">Content on this page is downloaded from different API sources on NASAs website <a href="https://www.nasa.gov" title="Go to NASAs website" target="_blank">https://www.nasa.gov/</a></p>
+		<p class="small">Thanks for sharing interesting content that we can spread further!</p>
+	</div>
+	
+	<article class="social">
+		<p class="small"><strong>Follow NASA on social media</strong></p>
+		<a href="https://www.facebook.com/NASA/" target="_blank"><img src="http://enfjelldesign.com/projectexam/imgweb/facebook.png" alt="Facebook @nasa" class="imgsocial" title="Facebook @nasa"></a>
+		
+		<a href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=nasa" target="_blank"><img src="http://enfjelldesign.com/projectexam/imgweb/twitter.png" alt="Twitter @nasa" class="imgsocial" title="Twitter @nasa"></a>
+		
+		<a href="https://www.instagram.com/nasa/" target="_blank"><img src="http://enfjelldesign.com//projectexam/imgweb/instagram.png" alt="Instagram @nasa" class="imgsocial" title="Instagram @nasa"></a>
+		
+		<a href="https://www.youtube.com/user/NASAtelevision?sub_confirmation=1" target="_blank"><img src="http://enfjelldesign.com/projectexam/imgweb/youtube.png" alt="Youtube @nasa" class="imgsocial" title="Youtube @nasa"></a>
+	</article>
+</section>
+	
+
+<!-- FOOTER -->
+	
+<footer role="contentinfo">
+	<p>Copyright 2018 &copy; By <a href="index.html" title="Back to home page" class="footerLink">NewSpaceTechnology</a> - All Rights Reserved</p>
+</footer>
+	
+	<script src="scripts/cal.js"></script>
+
+</body>
+</html>
+
