@@ -541,8 +541,7 @@ section, footer { width: 100%; margin: 0;}
 	
 .start  { width: 80%; }
 		
-.main { width: 90%;	flex-direction: column;
- }
+.main { width: 90%;	flex-direction: column; }
 	
 .sectioncontact { width: 90%; }
 				
@@ -564,7 +563,7 @@ section, footer { width: 100%; margin: 0;}
 	
 .right { width: 100%; margin: 0; border: 0px; }
 	
-	.descriptioncontent { 	
+.descriptioncontent { 	
 	width: 96%; 
 	margin: 5% 0; 
 	position:inherit; 
@@ -572,7 +571,6 @@ section, footer { width: 100%; margin: 0;}
 }
 	
 	
-
 nav ul li a:not(.button) {   width: auto; font-size: 90%; }
 	
 h1 { font-size: 2.5em; }
