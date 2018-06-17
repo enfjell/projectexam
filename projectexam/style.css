@@ -199,7 +199,7 @@ article {
 .left {
 	float: left;
 	width: 50%; 
-	margin: 0 2% 0 0; 
+	margin: 0 2% 2% 0; 
 	padding: 0; 
 	border-top: 3px dashed#333; 
 }
@@ -208,7 +208,7 @@ article {
 .right {
 	float: right;
 	width: 48%; 
-	margin: 0; 
+	margin: 0 0 2% 0; 
 	padding: 0; 
 	border-top: 3px solid #333; 
 }
@@ -571,6 +571,7 @@ section, footer { width: 100%; margin: 0;}
 }
 	
 	
+
 nav ul li a:not(.button) {   width: auto; font-size: 90%; }
 	
 h1 { font-size: 2.5em; }
