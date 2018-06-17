@@ -160,8 +160,7 @@ article {
 	background: url("http://enfjelldesign.com/projectexam/imgweb/vektor.svg") no-repeat center center;
 	background-attachment: scroll;
 	background-size: cover;	
-		padding:  10% 5% ; 
-
+	padding:  10% 5% ; 
 }
 
 .three { background: rgba(51,51,51,.5); color: #fff; }
@@ -230,7 +229,7 @@ article {
 
 #humanNumber { 
 	font-size: 4em; 
-	background-color: #0e8ddb; 
+	background-color: #0f4877; 
 	text-align: center; 
 	border-radius: 100px; 
 	width: 100px;	
@@ -359,7 +358,7 @@ button{
 	text-align: center;
 	-ms-touch-action:manipulation;
 	touch-action:manipulation;
-	background-color: #0a3051; 
+	background-color: #0f4877; 
 	margin-bottom: 2%; 
 }
 
@@ -373,6 +372,24 @@ button:hover {
 
 .buttonblack{ width: 197px; margin-right: 5px;  }
 
+.buttonblue {
+	width: 250px;
+	padding: 2%;
+	display: inline-block;
+	text-align: center;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	color: #fff; 
+	background-color: #0f4877; 
+	font-size: 1.1em; 
+	border: 2px solid #fff; 
+}
+
+.buttonblue:hover {
+	color: #0f4877; 
+	text-decoration: none;	background-color: #fff; 
+
+}
 
 .buttonwhite {
 	width: 210px;
@@ -383,13 +400,13 @@ button:hover {
 	-ms-touch-action:manipulation;
 	touch-action:manipulation;
 	color: #fff; 
-	background-color: transparent;
+	background-color: #0f4877;; 
 }
 
 
 .buttonwhite:hover {
 	background-color: #fff; 
-	color: #0e8ddb; 
+	color: #0f4877; 
 	text-decoration: none;
 }
 
@@ -413,9 +430,9 @@ button:hover {
 	height: 0; 
 }
 
-.buttondescription:hover { color: #0e8ddb; }
+.buttondescription:hover { 	color: #0f4877; }
 
-.buttondetails:hover { color: #0e8ddb; }
+.buttondetails:hover { 	color: #0f4877;  }
 
 
 input[type=text],
@@ -709,6 +726,8 @@ article, footer {
 	margin: 0;
 	padding: 5% 0; 
 }	
+	
+.two { padding: 5% 0; }	
 
 .social { text-align: center; }
 	
@@ -840,10 +859,16 @@ td { padding: 10px;	}
 	
 		
 /* BUTTONS */
+	
 
+.buttonblue { 
+	padding: 3%; 
+	width: 74%; 
+	margin: 2% 10%; 
+	font-size: 1em; 
+}
 	
 .buttonwhite { width: 75%; margin: 2% 10%; }
-
 	
 .buttonblack { width: 80%;  margin: 2% 10%; }
 	
