@@ -217,15 +217,6 @@ article {
 
 /* JAVASCRIPT */
 
-.detailscontent { 
-	background-color: #fff;
-	padding: 1%;
-	width: 349px;
-	position: absolute; 
-	z-index: 1;
-	color: #333; 
-}
-
 
 #humanNumber { 
 	font-size: 4em; 
@@ -240,6 +231,15 @@ article {
 
 
 .about-article{ 
+	padding: 2%;
+	width: 60%; 
+	color: #333; 
+	background-color: #fff; 
+	position: absolute; 
+} 
+
+
+.about-expedition { 
 	padding: 2%;
 	width: 60%; 
 	color: #333; 
@@ -363,14 +363,6 @@ button{
 	margin-bottom: 2%; 
 }
 
-
-button:hover {
-	color: #07080d; 
-	background-color: #fff; 
-	text-decoration: none;
-}
-
-
 .buttonblack{ width: 197px; margin-right: 5px;  }
 
 .buttonblue {
@@ -386,11 +378,6 @@ button:hover {
 	border: 2px solid #fff; 
 }
 
-.buttonblue:hover {
-	color: #0f4877; 
-	text-decoration: none;	background-color: #fff; 
-}
-
 .buttonwhite {
 	width: 210px;
 	padding: 2%;
@@ -403,29 +390,38 @@ button:hover {
 	background-color: #0f4877;; 
 }
 
-
-.buttonwhite:hover {
+.buttondetails {
+	padding: 2%;
+	width: 300px;
+	color: #333; 
 	background-color: #fff; 
-	color: #0f4877; 
-	text-decoration: none;
 }
-
 
 .buttondescription { 
 	padding: 2%;
 	width: 400px;
 	color: #333; 
 	background-color: #fff; 
-	z-index: 1;
 }
 
-.buttondetails {
-	width: 100%;  
-	padding: 0; 
-	margin: 0;
-	background-color: transparent;
-	color: #0a3051; 
-	height: 0; 
+
+button:hover {
+	color: #07080d; 
+	background-color: #fff; 
+	text-decoration: none;
+}
+
+
+.buttonblue:hover {
+	color: #0f4877; 
+	text-decoration: none;	background-color: #fff; 
+}
+
+
+.buttonwhite:hover {
+	background-color: #fff; 
+	color: #0f4877; 
+	text-decoration: none;
 }
 
 .buttondescription:hover { 	color: #0e8ddb; }
@@ -753,7 +749,7 @@ article, footer {
 	padding: 0;
 }
 		
-.detailscontent { 	
+.about-expedition { 	
 	width: 80%; 
 	margin: 0 10% 5% 10%; 
 	position:inherit; 
@@ -881,6 +877,8 @@ td { padding: 10px;	}
 .buttonwhite { width: 75%; margin: 2% 10%; }
 	
 .buttonblack { width: 80%;  margin: 2% 10%; }
+	
+.buttondetails { width: 80%;  margin: 0% 10%; }
 	
 .buttondescription { width: 80%;  margin: 0% 10%; }
 
