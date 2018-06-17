@@ -239,14 +239,15 @@ article {
 #calendar { margin-top: 8%; }
 
 
-.descriptioncontent { 
-	background-color: #fff;
-	padding: 1%;
-	width: 500px;
-	position: absolute; 
-	z-index: 1;
+.about-article{ 
+	padding: 2%;
+	width: 60%; 
 	color: #333; 
-}
+	background-color: #fff; 
+	position: absolute; 
+} 
+
+
 
 /* Typography */
 
@@ -410,15 +411,13 @@ button:hover {
 }
 
 
-.buttondescription {
-	width: 100%;  
-	padding: 0; 
-	margin: 0; 
-	color: #0a3051; 
-	background-color: transparent;
-	height: 0; 
+.buttondescription { 
+	padding: 2%;
+	width: 400px;
+	color: #333; 
+	background-color: #fff; 
+	z-index: 1;
 }
-
 
 .buttondetails {
 	width: 100%;  
@@ -429,9 +428,9 @@ button:hover {
 	height: 0; 
 }
 
-.buttondescription:hover { 	color: #0f4877; }
+.buttondescription:hover { 	color: #0e8ddb; }
 
-.buttondetails:hover { 	color: #0f4877;  }
+.buttondetails:hover { 	color: #0e8ddb;  }
 
 
 input[type=text],
@@ -521,7 +520,7 @@ section, footer { width: 100%; margin: 0;}
 		
 .buttonblack{ width: 180px; }
 	
-.descriptioncontent { width: 450px; }
+.descriptioncontent { width: 400px; }
 	
 }
 
@@ -548,11 +547,7 @@ section, footer { width: 100%; margin: 0;}
 .top { width: 100%; margin: 0;}
 
 .social { width: 60%; }
-	
-.detailscontent { width: 260px; }
-	
-.descriptioncontent { width: 440px; }	
-	
+			
 .buttonwhite { width: 100%; } 
 	
 .buttonblack { width: 100%; }
@@ -563,9 +558,8 @@ section, footer { width: 100%; margin: 0;}
 	
 .right { width: 100%; margin: 0; border: 0px; }
 	
-.descriptioncontent { 	
+.about-article{ 	
 	width: 96%; 
-	margin: 5% 0; 
 	position:inherit; 
 	padding: 2%; 
 }
@@ -767,11 +761,11 @@ article, footer {
 	padding: 4% 0;
 }
 	
-.descriptioncontent { 	
+.about-article { 	
 	width: 80%; 
-	margin: 10%; 
+	margin: 0 10%; 
 	position:inherit; 
-	padding: 4% 0; 
+	padding: 1% 0; 
 }
 	
 	
@@ -889,5 +883,7 @@ td { padding: 10px;	}
 	
 .buttonblack { width: 80%;  margin: 2% 10%; }
 	
+.buttondescription { width: 80%;  margin: 0% 10%; }
+
 	
 }
