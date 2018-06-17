@@ -813,7 +813,7 @@ h1, h2, h3, h5, p {
 h1 { font-size: 2em; letter-spacing: 3px; }
 	
 	
-h2 { font-size: 1.6em; letter-spacing: 2px; }
+h2 { font-size: 1.6em; letter-spacing: 2px; margin: 0 10%; }
 					
 	
 h3 { font-size: 1.2em; }	
