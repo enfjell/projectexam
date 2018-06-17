@@ -762,8 +762,8 @@ article, footer {
 }
 	
 .about-article { 	
-	width: 80%; 
-	margin: 0 10%; 
+	width: 100%; 
+	margin: 0; 
 	position:inherit; 
 	padding: 1% 0; 
 }
