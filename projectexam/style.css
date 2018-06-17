@@ -198,7 +198,7 @@ article {
 
 .left {
 	float: left;
-	width: 66%; 
+	width: 56%; 
 	margin: 0 2% 0 0; 
 	padding: 0; 
 	border-top: 3px dashed#333; 
@@ -207,7 +207,7 @@ article {
 
 .right {
 	float: right;
-	width: 30%; 
+	width: 40%; 
 	margin: 0; 
 	padding: 0; 
 	border-top: 3px solid #333; 
@@ -538,7 +538,8 @@ header  {width: 90%; margin: 0; }
 	
 section, footer { width: 100%; margin: 0;}
 		
-.main { width: 90%; }
+.main { width: 90%;	flex-direction: column;
+ }
 	
 .sectioncontact { width: 90%; }
 				
@@ -553,6 +554,18 @@ section, footer { width: 100%; margin: 0;}
 .buttonwhite { width: 100%; } 
 	
 .buttonblack { width: 100%; }
+	
+.left { width: 100%; border: 0px; }
+	
+.right { width: 100%; margin: 0; border: 0px; }
+	
+	.descriptioncontent { 	
+	width: 96%; 
+	margin: 5% 0; 
+	position:inherit; 
+	padding: 2%; 
+}
+	
 	
 
 nav ul li a:not(.button) {   width: auto; font-size: 90%; }
