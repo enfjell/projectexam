@@ -198,7 +198,7 @@ article {
 
 .left {
 	float: left;
-	width: 56%; 
+	width: 50%; 
 	margin: 0 2% 0 0; 
 	padding: 0; 
 	border-top: 3px dashed#333; 
@@ -207,7 +207,7 @@ article {
 
 .right {
 	float: right;
-	width: 40%; 
+	width: 48%; 
 	margin: 0; 
 	padding: 0; 
 	border-top: 3px solid #333; 
@@ -242,7 +242,7 @@ article {
 .descriptioncontent { 
 	background-color: #fff;
 	padding: 1%;
-	width: 600px;
+	width: 500px;
 	position: absolute; 
 	z-index: 1;
 	color: #333; 
@@ -388,7 +388,6 @@ button:hover {
 .buttonblue:hover {
 	color: #0f4877; 
 	text-decoration: none;	background-color: #fff; 
-
 }
 
 .buttonwhite {
@@ -490,9 +489,8 @@ section, footer { width: 100%; margin: 0; }
 			
 .sectioncontact { width: 90%;}
 	
-.top { width: 100%; margin: 0; }	
-.descriptioncontent { width: 500px; }
-				
+.top { width: 100%; margin: 0; }
+					
 }
 
 
