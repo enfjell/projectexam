@@ -491,6 +491,7 @@ section, footer { width: 100%; margin: 0; }
 .sectioncontact { width: 90%;}
 	
 .top { width: 100%; margin: 0; }	
+.descriptioncontent { width: 500px; }
 				
 }
 
@@ -521,6 +522,8 @@ section, footer { width: 100%; margin: 0;}
 .social { width: 40%; margin: 0; }
 		
 .buttonblack{ width: 180px; }
+	
+.descriptioncontent { width: 450px; }
 	
 }
 
