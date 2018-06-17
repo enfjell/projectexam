@@ -466,7 +466,7 @@ footer {
 /* LAPTOP AND DESKTOP */
 
 	
-@media (min-width:1115px) and (max-width:1280px){
+@media (min-width:1115px) and (max-width:1279px){
 	
 	
 body{ width: 100%; margin: 0; }
